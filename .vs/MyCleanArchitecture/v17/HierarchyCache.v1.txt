@@ -1,0 +1,301 @@
+﻿++Solution 'MyCleanArchitecture' ‎(5 of 5 projects)
+i:{00000000-0000-0000-0000-000000000000}:MyCleanArchitecture.sln
+++1 - Presentation - Reactjs
+i:{00000000-0000-0000-0000-000000000000}:1 - Presentation - Reactjs
+++2 - Application
+i:{00000000-0000-0000-0000-000000000000}:2 - Application
+++MyCleanArchitecture.Application
+i:{91b403e4-2962-462d-903b-f532d10a1873}:MyCleanArchitecture.Application
+++Connected Services 
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:>701
+++Dependencies
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:>700
+i:{2db905b3-5617-4ce2-9f4d-ba8cd0102d6e}:>229
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:>380
+i:{72cce440-7f27-460c-b233-f16a63ec649b}:>449
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:>344
+++Analyzers
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:analyzers
+i:{2db905b3-5617-4ce2-9f4d-ba8cd0102d6e}:analyzers
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:analyzers
+i:{72cce440-7f27-460c-b233-f16a63ec649b}:analyzers
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:analyzers
+++Frameworks
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:frameworks
+i:{2db905b3-5617-4ce2-9f4d-ba8cd0102d6e}:frameworks
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:frameworks
+i:{72cce440-7f27-460c-b233-f16a63ec649b}:frameworks
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:frameworks
+++Packages
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:packages
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:packages
+++Projects
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:projects
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:projects
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:projects
+++Infrastructure.Data
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\infrastructure.data.csproj
+i:{6d6f78bf-f2d8-4486-8106-420be000ef97}:Infrastructure.Data
+++MyCleanArchitecture.Domain
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\mycleanarchitecture.domain.csproj
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\bin\debug\net6.0\mycleanarchitecture.domain.dll
+i:{31c3218a-d8b5-4816-8c2c-2ab08935c130}:MyCleanArchitecture.Domain
+++MyCleanArchitecture.DomainShare
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domainshare\mycleanarchitecture.domainshare.csproj
+i:{31c3218a-d8b5-4816-8c2c-2ab08935c130}:MyCleanArchitecture.DomainShare
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domainshare\bin\debug\net6.0\mycleanarchitecture.domainshare.dll
+++Properties
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\properties\
+++Contracts
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\contracts\
+++Controllers
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\controllers\
+++WeatherForecastController.cs
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\controllers\weatherforecastcontroller.cs
+++WebViews
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\webviews\
+++appsettings.json
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\appsettings.json
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\appsettings.json
+++Program.cs
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\program.cs
+++Startup.cs
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\startup.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\startup.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\startup.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\startup.cs
+++WeatherForecast.cs
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\weatherforecast.cs
+++No service dependencies discovered
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:>702
+++Microsoft.AspNetCore.Analyzers
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{2db905b3-5617-4ce2-9f4d-ba8cd0102d6e}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{72cce440-7f27-460c-b233-f16a63ec649b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{2db905b3-5617-4ce2-9f4d-ba8cd0102d6e}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{72cce440-7f27-460c-b233-f16a63ec649b}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:c:\users\admin\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:c:\users\admin\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:c:\users\admin\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{2db905b3-5617-4ce2-9f4d-ba8cd0102d6e}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{72cce440-7f27-460c-b233-f16a63ec649b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\microsoft.netcore.app
+i:{2db905b3-5617-4ce2-9f4d-ba8cd0102d6e}:d:\2022\.net\mycleanarchitecture\src\infrastructure.crosscutting\microsoft.netcore.app
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\microsoft.netcore.app
+i:{72cce440-7f27-460c-b233-f16a63ec649b}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domainshare\microsoft.netcore.app
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\microsoft.netcore.app
+++Swashbuckle.AspNetCore (6.2.3)
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:>759
+++launchSettings.json
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\properties\launchsettings.json
+++DTOs
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\contracts\dtos\
+++IService
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\contracts\iservice\
+++appsettings.Development.json
+i:{d66cf39c-8b60-4a1b-a131-c542778cbedb}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.application\appsettings.development.json
+++4 - Infrastructure
+i:{00000000-0000-0000-0000-000000000000}:4 - Infrastructure
+++4.2 CrossCutting
+i:{50778ec5-e4a8-4aa8-bdec-022cfbffb08e}:4.2 CrossCutting
+++Infrastructure.CrossCutting
+i:{97dda512-4be7-47ef-b87c-70e0f2d384dd}:Infrastructure.CrossCutting
+++Caching
+i:{2db905b3-5617-4ce2-9f4d-ba8cd0102d6e}:d:\2022\.net\mycleanarchitecture\src\infrastructure.crosscutting\caching\
+++Catalog
+i:{2db905b3-5617-4ce2-9f4d-ba8cd0102d6e}:d:\2022\.net\mycleanarchitecture\src\infrastructure.crosscutting\catalog\
+++FileStorage
+i:{2db905b3-5617-4ce2-9f4d-ba8cd0102d6e}:d:\2022\.net\mycleanarchitecture\src\infrastructure.crosscutting\filestorage\
+++Middleware
+i:{2db905b3-5617-4ce2-9f4d-ba8cd0102d6e}:d:\2022\.net\mycleanarchitecture\src\infrastructure.crosscutting\middleware\
+++Notifications
+i:{2db905b3-5617-4ce2-9f4d-ba8cd0102d6e}:d:\2022\.net\mycleanarchitecture\src\infrastructure.crosscutting\notifications\
+++4.1 Data
+i:{50778ec5-e4a8-4aa8-bdec-022cfbffb08e}:4.1 Data
+++Factories
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\factories\
+++Persistence
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\
+++Repositories
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\repositories\
+++ConnectDatabase
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\
+++Mongodb
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\mongodb\
+++Mysql
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\mysql\
+++Oracle
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\oracle\
+++PostgreSQL
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\postgresql\
+++SqlSever
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\sqlsever\
+++Microsoft.EntityFrameworkCore (6.0.4)
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:>732
+++Microsoft.EntityFrameworkCore.Design (6.0.4)
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:>735
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.4)
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:>733
+++Microsoft.EntityFrameworkCore.Tools (6.0.4)
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:>738
+++Microsoft.EntityFrameworkCore.Tools.DotNet (2.0.3)
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:>734
+++Microsoft.Extensions.DependencyInjection (6.0.0)
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:>737
+++Microsoft.Extensions.Logging.Console (6.0.0)
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:>736
+++Pomelo.EntityFrameworkCore.MySql (6.0.1)
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:>739
+++Configuration
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\configuration\
+++ConnectionString
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\connectionstring\
+++Context
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\context\
+++Initialization
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\initialization\
+++Repository
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\repository\
+++DatabaseSettings.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\databasesettings.cs
+++Auditing.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\configuration\auditing.cs
+++Catalog.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\configuration\catalog.cs
+++DbContextFluentAPIConfig.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\configuration\dbcontextfluentapiconfig.cs
+++Identity.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\configuration\identity.cs
+++SchemaNames.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\configuration\schemanames.cs
+++ConnectionStringSecurer.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\connectionstring\connectionstringsecurer.cs
+++ConnectionStringValidator.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\connectionstring\connectionstringvalidator.cs
+++AppendGlobalQueryFilterExtension.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\context\appendglobalqueryfilterextension.cs
+++ApplicationDbContext.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\context\applicationdbcontext.cs
+++BaseDbContext.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\context\basedbcontext.cs
+++EcommerceDbContext.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\context\ecommercedbcontext.cs
+++ApplicationDbInitializer.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\initialization\applicationdbinitializer.cs
+++ApplicationDbSeeder.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\initialization\applicationdbseeder.cs
+++CustomSeederRunner.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\initialization\customseederrunner.cs
+++DatabaseInitializer.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\initialization\databaseinitializer.cs
+++ICustomSeeder.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\initialization\icustomseeder.cs
+++IDatabaseInitializer.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\initialization\idatabaseinitializer.cs
+++ApplicationDbRepository.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\repository\applicationdbrepository.cs
+++DapperRepository.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\repository\dapperrepository.cs
+++EventAddingRepositoryDecorator.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\persistence\connectdatabase\repository\eventaddingrepositorydecorator.cs
+++3 - Domain
+i:{00000000-0000-0000-0000-000000000000}:3 - Domain
+++Enum
+i:{72cce440-7f27-460c-b233-f16a63ec649b}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domainshare\enum\
+++StatusOrder.cs
+i:{72cce440-7f27-460c-b233-f16a63ec649b}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domainshare\enum\statusorder.cs
+++Common
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\common\
+++DomainModel
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\
+++DomainServices
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainservices\
+++IRepositories
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\irepositories\
+++BaseEntity.cs
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\common\baseentity.cs
+++DomainEvent.cs
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\common\domainevent.cs
+++IAggregateRoot.cs
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\common\iaggregateroot.cs
+++IAuditableEntity.cs
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\common\iauditableentity.cs
+++IEntity.cs
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\common\ientity.cs
+++entities
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\entities\
+++events
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\events\
+++valueObjects
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\valueobjects\
+++DomainServices.cs
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainservices\domainservices.cs
+++Agents
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\entities\agents\
+++Orders
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\entities\orders\
+++Payments
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\entities\payments\
+++Products
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\entities\products\
+++Users
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\entities\users\
+++Agent.cs
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\entities\agents\agent.cs
+++Order.cs
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\entities\orders\order.cs
+++OrderDetail.cs
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\entities\orders\orderdetail.cs
+++Payment.cs
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\entities\payments\payment.cs
+++Product.cs
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\entities\products\product.cs
+++ProductLine.cs
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\entities\products\productline.cs
+++User.cs
+i:{50f878e9-a603-41df-81b7-75ad851311c5}:d:\2022\.net\mycleanarchitecture\src\mycleanarchitecture.domain\domainmodel\entities\users\user.cs
+++Migrations
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\migrations\
+++20220419082722_inital.cs
+++EcommerceDbContextModelSnapshot.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\migrations\ecommercedbcontextmodelsnapshot.cs
+++20220419082722_inital.Designer.cs
+++20220419091645_inital.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\migrations\20220419091645_inital.cs
+++20220419091645_inital.Designer.cs
+i:{3ad12c2f-1659-4c01-91fa-f8f951f8e33d}:d:\2022\.net\mycleanarchitecture\src\infrastructure.data\migrations\20220419091645_inital.designer.cs
+++Solution 'MyCleanArchitecture' ‎(6 of 6 projects)
+++WebApplication1
+++C:\Program Files\dotnet\sdk\6.0.201\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.201\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Components.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.201\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Mvc.Analyzers.dll

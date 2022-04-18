@@ -1,0 +1,12 @@
+D:\2022\.NET\MyCleanArchitecture\src\Infrastructure.CrossCutting\bin\Debug\net6.0\Infrastructure.CrossCutting.deps.json
+D:\2022\.NET\MyCleanArchitecture\src\Infrastructure.CrossCutting\bin\Debug\net6.0\Infrastructure.CrossCutting.dll
+D:\2022\.NET\MyCleanArchitecture\src\Infrastructure.CrossCutting\bin\Debug\net6.0\Infrastructure.CrossCutting.pdb
+D:\2022\.NET\MyCleanArchitecture\src\Infrastructure.CrossCutting\obj\Debug\net6.0\Infrastructure.CrossCutting.csproj.AssemblyReference.cache
+D:\2022\.NET\MyCleanArchitecture\src\Infrastructure.CrossCutting\obj\Debug\net6.0\Infrastructure.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+D:\2022\.NET\MyCleanArchitecture\src\Infrastructure.CrossCutting\obj\Debug\net6.0\Infrastructure.CrossCutting.AssemblyInfoInputs.cache
+D:\2022\.NET\MyCleanArchitecture\src\Infrastructure.CrossCutting\obj\Debug\net6.0\Infrastructure.CrossCutting.AssemblyInfo.cs
+D:\2022\.NET\MyCleanArchitecture\src\Infrastructure.CrossCutting\obj\Debug\net6.0\Infrastructure.CrossCutting.csproj.CoreCompileInputs.cache
+D:\2022\.NET\MyCleanArchitecture\src\Infrastructure.CrossCutting\obj\Debug\net6.0\Infrastructure.CrossCutting.dll
+D:\2022\.NET\MyCleanArchitecture\src\Infrastructure.CrossCutting\obj\Debug\net6.0\refint\Infrastructure.CrossCutting.dll
+D:\2022\.NET\MyCleanArchitecture\src\Infrastructure.CrossCutting\obj\Debug\net6.0\Infrastructure.CrossCutting.pdb
+D:\2022\.NET\MyCleanArchitecture\src\Infrastructure.CrossCutting\obj\Debug\net6.0\ref\Infrastructure.CrossCutting.dll

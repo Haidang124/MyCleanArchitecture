@@ -1,0 +1,12 @@
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.DomainShare\bin\Debug\net6.0\MyCleanArchitecture.DomainShare.deps.json
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.DomainShare\bin\Debug\net6.0\MyCleanArchitecture.DomainShare.dll
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.DomainShare\bin\Debug\net6.0\MyCleanArchitecture.DomainShare.pdb
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.DomainShare\obj\Debug\net6.0\MyCleanArchitecture.DomainShare.csproj.AssemblyReference.cache
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.DomainShare\obj\Debug\net6.0\MyCleanArchitecture.DomainShare.GeneratedMSBuildEditorConfig.editorconfig
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.DomainShare\obj\Debug\net6.0\MyCleanArchitecture.DomainShare.AssemblyInfoInputs.cache
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.DomainShare\obj\Debug\net6.0\MyCleanArchitecture.DomainShare.AssemblyInfo.cs
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.DomainShare\obj\Debug\net6.0\MyCleanArchitecture.DomainShare.csproj.CoreCompileInputs.cache
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.DomainShare\obj\Debug\net6.0\MyCleanArchitecture.DomainShare.dll
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.DomainShare\obj\Debug\net6.0\refint\MyCleanArchitecture.DomainShare.dll
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.DomainShare\obj\Debug\net6.0\MyCleanArchitecture.DomainShare.pdb
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.DomainShare\obj\Debug\net6.0\ref\MyCleanArchitecture.DomainShare.dll
