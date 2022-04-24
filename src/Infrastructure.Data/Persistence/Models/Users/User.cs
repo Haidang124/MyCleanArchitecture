@@ -11,6 +11,8 @@ namespace Infrastructure.Data.Persistence.Model.Agents
 {
     public class User : BasePersistenceModel
     {
+        private User root;
+
         public Guid Id { get; set; }
         public string UserName { get; set; }
         public string Email { get; set; }
@@ -20,20 +22,22 @@ namespace Infrastructure.Data.Persistence.Model.Agents
         public string PhoneNumber { get; set; }
         public string Address { get; set; }
         public DateTime DOB { get; set; }
+        public User(UserEntity userEntity)
+        {
+            Id = userEntity.Id;
+            UserName = userEntity.UserName;
+            Email = userEntity.Email;
+            Password = userEntity.Password;
+            LastName = userEntity.LastName;
+            FirstName = userEntity.FirstName;
+            PhoneNumber = userEntity.PhoneNumber;
+            Address = userEntity.Address;
+            DOB = userEntity.DOB;
+        }
+
         public override IAggregateRoot ToEntity()
         {
-            return new UserEntity()
-            {
-                Id = this.Id,
-                UserName = this.UserName,
-                Email = this.Email,
-                Password = this.Password,
-                LastName = this.LastName,
-                FirstName = this.FirstName,
-                PhoneNumber = this.PhoneNumber,
-                Address = this.Address,
-                DOB = this.DOB
-            };
+            return new UserEntity(Id, UserName, Email, Password, LastName, FirstName, PhoneNumber, Address, DOB);
         }
 
     }

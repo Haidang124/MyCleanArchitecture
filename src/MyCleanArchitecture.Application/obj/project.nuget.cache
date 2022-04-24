@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jG6DPft3qmsVJGrh6IcPJUJl1IeuWKoKukVmjhlkN1wscJrqNI1Od7yp0/Zsf5tmd+iqpjFTz2Iev5i78I0Brw==",
+  "dgSpecHash": "86VSjw0JrHNAePt17Cb0AprcEwaORio8vJJgTrsRgMAIDySeQKvEJP8KJP4MS36TqPtcPeNF6XIy5LPB6gvUeA==",
   "success": true,
   "projectFilePath": "D:\\2022\\.NET\\MyCleanArchitecture\\src\\MyCleanArchitecture.Application\\MyCleanArchitecture.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",

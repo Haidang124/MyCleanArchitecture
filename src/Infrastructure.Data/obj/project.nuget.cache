@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0fa7uqyFOmdWcRNXBT0XlrrG0V5ZkcYrFVUVX6Nf3j0w2PDwwpMZTpAVKFS9DWm+KJ8L2UMUixP1TCiM9J5/xw==",
+  "dgSpecHash": "8ksErLD1XxAORN8X06XeN5ysV8AY61Lzton3v1HUUQrlMmjYbPLB4AEmF3UgJ4zjyLCYZhkwZgBily+NgqXz2Q==",
   "success": true,
   "projectFilePath": "D:\\2022\\.NET\\MyCleanArchitecture\\src\\Infrastructure.Data\\Infrastructure.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
