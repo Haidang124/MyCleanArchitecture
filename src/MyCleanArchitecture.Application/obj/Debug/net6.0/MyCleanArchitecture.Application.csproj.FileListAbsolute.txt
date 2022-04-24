@@ -67,3 +67,5 @@ D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.Application\bin\Debug\n
 D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.Application\bin\Debug\net6.0\MyCleanArchitecture.DomainShare.pdb
 D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.Application\bin\Debug\net6.0\MySqlConnector.dll
 D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.Application\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.Application\bin\Debug\net6.0\Configurations\database.json
+D:\2022\.NET\MyCleanArchitecture\src\MyCleanArchitecture.Application\bin\Debug\net6.0\AutoMapper.dll
