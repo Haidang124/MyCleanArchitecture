@@ -13,6 +13,13 @@ namespace Infrastructure.Data.Persistence.Model.Agents
         public Guid Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public Agent() { }
+        public Agent(AgentEntity agentEntity)
+        {
+            Id = agentEntity.Id;
+            Name = agentEntity.Name;
+            Description = agentEntity.Description;
+        }
         public override IAggregateRoot ToEntity()
         {
             return new AgentEntity()

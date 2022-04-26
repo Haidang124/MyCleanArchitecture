@@ -17,6 +17,15 @@ namespace Infrastructure.Data.Persistence.Model.Agents
         public DateTime Date { get; set; }
         public StatusOrder Status { get; set; }
         public Guid UserId { get; set; }
+        public Order() { }
+        public Order(OrderEntity orderEntity)
+        {
+            Id = orderEntity.Id;
+            Description = orderEntity.Description;
+            Date = orderEntity.Date;
+            Status = orderEntity.Status;
+            UserId = orderEntity.UserId;
+        }
         public override IAggregateRoot ToEntity()
         {
             return new OrderEntity()
