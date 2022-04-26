@@ -14,6 +14,13 @@ namespace Infrastructure.Data.Persistence.Model.Agents
         public Guid Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public ProductLine() { }
+        public ProductLine(ProductLineEntity productLineEntity)
+        {
+            Id = productLineEntity.Id;
+            Name = productLineEntity.Name;
+            Description = productLineEntity.Description;
+        }
         public override IAggregateRoot ToEntity()
         {
             return new ProductLineEntity()

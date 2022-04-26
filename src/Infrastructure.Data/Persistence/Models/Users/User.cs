@@ -22,6 +22,7 @@ namespace Infrastructure.Data.Persistence.Model.Agents
         public string PhoneNumber { get; set; }
         public string Address { get; set; }
         public DateTime DOB { get; set; }
+        public User() { }
         public User(UserEntity userEntity)
         {
             Id = userEntity.Id;

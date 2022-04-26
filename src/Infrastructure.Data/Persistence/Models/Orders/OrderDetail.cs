@@ -16,6 +16,15 @@ namespace Infrastructure.Data.Persistence.Model.Agents
         public Guid ProductId { get; set; }
         public int Quantity { get; set; }
         public decimal UnitPrice { get; set; }
+        public OrderDetail() { }
+        public OrderDetail(OrderDetailEntity orderDetailEntity)
+        {
+            Id = orderDetailEntity.Id;
+            OrderId = orderDetailEntity.OrderId;
+            ProductId = orderDetailEntity.ProductId;
+            Quantity = orderDetailEntity.Quantity;
+            UnitPrice = orderDetailEntity.UnitPrice;
+        }
         public override IAggregateRoot ToEntity()
         {
             return new OrderDetailEntity()

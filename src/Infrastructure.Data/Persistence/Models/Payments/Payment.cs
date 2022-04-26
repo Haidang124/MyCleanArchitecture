@@ -15,6 +15,14 @@ namespace Infrastructure.Data.Persistence.Model.Agents
         public Guid UserId { get; set; }
         public DateTime Date { get; set; }
         public decimal Amount { get; set; }
+        public Payment() { }
+        public Payment(PaymentEntity paymentEntity)
+        {
+            Id = paymentEntity.Id;
+            UserId = paymentEntity.UserId;
+            Date = paymentEntity.Date;
+            Amount = paymentEntity.Amount;
+        }
         public override IAggregateRoot ToEntity()
         {
             return new PaymentEntity()

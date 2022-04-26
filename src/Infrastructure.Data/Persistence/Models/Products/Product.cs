@@ -19,6 +19,18 @@ namespace Infrastructure.Data.Persistence.Model.Agents
         public int QuantityInStock { get; set; }
         public Guid AgentId { get; set; }
         public Guid ProductLineId { get; set; }
+        public Product() { }
+        public Product(ProductEntity productEntity)
+        {
+            Id = productEntity.Id;
+            Name = productEntity.Name;
+            Description = productEntity.Description;
+            BuyPrice = productEntity.BuyPrice;
+            SellPrice = productEntity.SellPrice;
+            QuantityInStock = productEntity.QuantityInStock;
+            AgentId = productEntity.AgentId;
+            ProductLineId = productEntity.ProductLineId;
+        }
         public override IAggregateRoot ToEntity()
         {
             return new ProductEntity()
