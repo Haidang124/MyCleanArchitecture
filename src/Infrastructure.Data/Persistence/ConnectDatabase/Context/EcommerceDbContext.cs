@@ -14,8 +14,6 @@ namespace MyCleanArchitecture.Infrastructure.Persistence.ConnectDatabase.Context
         public EcommerceDbContext(DbContextOptions<EcommerceDbContext> options) : base(options)
         {
         }
-        private const string coreConnectionString = "server=localhost;userid=root;password=haidang124;database=Ecommerce";
-
         public DbSet<Payment> Payment { get; set; }
         public DbSet<ProductLine> ProductLines { get; set; }
         public DbSet<Agent> Agents { get; set; }
@@ -25,8 +23,6 @@ namespace MyCleanArchitecture.Infrastructure.Persistence.ConnectDatabase.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseMySql(coreConnectionString,
-                    ServerVersion.AutoDetect(coreConnectionString));
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

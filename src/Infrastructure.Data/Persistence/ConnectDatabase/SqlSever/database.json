@@ -1,0 +1,6 @@
+{
+  "DatabaseSettings": {
+    "DBProvider": "mssql",
+    "ConnectionString": "Data Source=HAIDANG;Initial Catalog=Ecommerce;Integrated Security=True"
+  }
+}

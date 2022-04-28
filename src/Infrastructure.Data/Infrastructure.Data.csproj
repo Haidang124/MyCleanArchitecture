@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="Factories\" />
     <Folder Include="Persistence\ConnectDatabase\Mongodb\" />
-    <Folder Include="Persistence\ConnectDatabase\Mysql\" />
     <Folder Include="Persistence\ConnectDatabase\Oracle\" />
     <Folder Include="Persistence\ConnectDatabase\PostgreSQL\" />
     <Folder Include="Persistence\ConnectDatabase\SqlSever\" />
