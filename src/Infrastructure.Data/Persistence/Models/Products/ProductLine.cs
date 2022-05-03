@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Infrastructure.Data.Persistence.Model;
+using Infrastructure.Data.Persistence.Models;
 using MyCleanArchitecture.Domain.common;
 using MyCleanArchitecture.Domain.DomainModel.Entities.Products;
 
-namespace Infrastructure.Data.Persistence.Model.Agents
+namespace Infrastructure.Data.Persistence.Models.Agents
 {
     public class ProductLine : BasePersistenceModel
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using MyCleanArchitecture.Domain.common;
 using MyCleanArchitecture.Domain.DomainModel.Entities.Agents;
 
-namespace Infrastructure.Data.Persistence.Model.Agents
+namespace Infrastructure.Data.Persistence.Models.Agents
 {
     public class Agent : BasePersistenceModel
     {

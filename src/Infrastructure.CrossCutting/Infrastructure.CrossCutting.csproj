@@ -14,4 +14,9 @@
     <Folder Include="Notifications\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyCleanArchitecture.DomainShare\MyCleanArchitecture.DomainShare.csproj" />
+    <ProjectReference Include="..\MyCleanArchitecture.Domain\MyCleanArchitecture.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
