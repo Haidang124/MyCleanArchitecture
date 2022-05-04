@@ -1,7 +1,7 @@
-﻿using Infrastructure.Data;
+using Infrastructure.Data;
 using Infrastructure.Data.Persistence.Models.Agents;
 using Microsoft.AspNetCore.Identity;
-using MyCleanArchitecture.Application.Configurations;
+using MyCleanArchitecture.API.Configurations;
 using MyCleanArchitecture.Infrastructure.Persistence.ConnectDatabase.Context;
 
 var builder = WebApplication.CreateBuilder(args);

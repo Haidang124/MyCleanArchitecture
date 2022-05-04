@@ -1,4 +1,4 @@
-namespace MyCleanArchitecture.Application
+namespace MyCleanArchitecture.API
 {
     public class WeatherForecast
     {
