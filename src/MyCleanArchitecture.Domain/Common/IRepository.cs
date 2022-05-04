@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MyCleanArchitecture.Domain.common;
+using MyCleanArchitecture.Domain.Common;
 
 namespace MyCleanArchitecture.Domain.Common
 {

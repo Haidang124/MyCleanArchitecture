@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Infrastructure.Data.Persistence.Models;
-using MyCleanArchitecture.Domain.common;
+using MyCleanArchitecture.Domain.Common;
 using MyCleanArchitecture.Domain.DomainModel.Entities.Orders;
 using MyCleanArchitecture.DomainShare.Enum;
 

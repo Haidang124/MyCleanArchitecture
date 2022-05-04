@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Infrastructure.Data.Persistence.Models.Agents;
-using MyCleanArchitecture.Domain.common;
-using MyCleanArchitecture.Domain.DomainModel.entities.User;
+using MyCleanArchitecture.Domain.Common;
+using MyCleanArchitecture.Domain.DomainModel.Entities.Agents;
+using MyCleanArchitecture.Domain.DomainModel.Entities.Orders;
+using MyCleanArchitecture.Domain.DomainModel.Entities.Payments;
+using MyCleanArchitecture.Domain.DomainModel.Entities.Products;
 
 namespace Infrastructure.Data.Persistence.Models
 {
@@ -17,11 +20,18 @@ namespace Infrastructure.Data.Persistence.Models
         public DateTime ModifiedDate { get; set; }
         public Guid? ModifiedBy { get; set; }
         public abstract IAggregateRoot ToEntity();
-        public BasePersistenceModel FromEntity(IAggregateRoot root)
+        public static BasePersistenceModel FromEntity(IAggregateRoot root)
         {
             var mapper = new Dictionary<Type, Func<IAggregateRoot, BasePersistenceModel>>
             {
-                //  {typeof(UserEntity), (r) => { return new User((UserEntity) r); } },
+                 {typeof(ProductEntity), (r) => { return new Product((ProductEntity) r); } },
+                 {typeof(ProductLineEntity), (r) => { return new ProductLine((ProductLineEntity) r); } },
+                 {typeof(AgentEntity), (r) => { return new Agent((AgentEntity) r); } },
+                 {typeof(OrderEntity), (r) => { return new Order((OrderEntity) r); } },
+                 {typeof(OrderDetailEntity), (r) => { return new OrderDetail((OrderDetailEntity) r); } },
+                 {typeof(OrderDetailEntity), (r) => { return new OrderDetail((OrderDetailEntity) r); } },
+                 {typeof(PaymentEntity), (r) => { return new Payment((PaymentEntity) r); } },
+
             };
             return mapper[root.GetType()](root);
         }

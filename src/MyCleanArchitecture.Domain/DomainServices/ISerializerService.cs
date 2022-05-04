@@ -1,4 +1,4 @@
-namespace MyCleanArchitecture.Application.Services
+namespace MyCleanArchitecture.Domain.DomainServices
 {
     public interface ISerializerService : ITransientService
     {

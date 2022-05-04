@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using MyCleanArchitecture.Application.Services;
+using MyCleanArchitecture.Domain.DomainServices;
 
 namespace Infrastructure.Data.Common
 {

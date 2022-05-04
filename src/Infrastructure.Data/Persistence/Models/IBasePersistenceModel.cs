@@ -1,4 +1,4 @@
-using MyCleanArchitecture.Domain.common;
+using MyCleanArchitecture.Domain.Common;
 
 namespace Infrastructure.Data.Persistence.Models
 {
@@ -9,7 +9,6 @@ namespace Infrastructure.Data.Persistence.Models
         public Guid? CreatedBy { get; set; }
         public DateTime ModifiedDate { get; set; }
         public Guid? ModifiedBy { get; set; }
-        public abstract IAggregateRoot ToEntity();
-        public BasePersistenceModel FromEntity(IAggregateRoot root);
+
     }
 }

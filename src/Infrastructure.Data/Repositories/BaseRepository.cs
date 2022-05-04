@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Infrastructure.Data.Persistence.Models;
 using Microsoft.EntityFrameworkCore;
-using MyCleanArchitecture.Domain.common;
 using MyCleanArchitecture.Domain.Common;
 using MyCleanArchitecture.Infrastructure.Persistence.ConnectDatabase.Context;
 
