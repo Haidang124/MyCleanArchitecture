@@ -1,4 +1,5 @@
-﻿using MyCleanArchitecture.Domain.DomainModel.entities.User;
+﻿using MyCleanArchitecture.Domain.common;
+using MyCleanArchitecture.Domain.DomainModel.entities.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace Infrastructure.CrossCutting.Auth.Jwt
 {
     public interface IAuthenticator
     {
-        UserEntity Authenticate(string username, string password);
+        IAggregateRoot Authenticate(string username, string password);
         void ValidatePassword(string password);
         string GenerateUserToken(UserEntity user, string purpose);
         bool VerifyUserToken(UserEntity user, string purpose, string token);

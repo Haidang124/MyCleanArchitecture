@@ -12,7 +12,7 @@ namespace Infrastructure.Data.Persistence.Models.Agents
 {
     public class User : IdentityUser<Guid>, IBasePersistenceModel
     {
-        private User root; 
+        private User root;
         public Guid Id { get; set; }
         public string Password { get; set; }
         public string LastName { get; set; }
@@ -36,7 +36,6 @@ namespace Infrastructure.Data.Persistence.Models.Agents
             Address = userEntity.Address;
             DOB = userEntity.DOB;
         }
-
         public IAggregateRoot ToEntity()
         {
             return new UserEntity(Id, UserName, Email, Password, LastName, FirstName, PhoneNumber, Address, DOB);
