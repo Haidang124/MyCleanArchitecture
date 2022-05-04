@@ -1,4 +1,4 @@
-﻿using MyCleanArchitecture.Domain.common;
+﻿using MyCleanArchitecture.Domain.Common;
 using MyCleanArchitecture.Domain.DomainModel.entities.User;
 using System;
 using System.Collections.Generic;

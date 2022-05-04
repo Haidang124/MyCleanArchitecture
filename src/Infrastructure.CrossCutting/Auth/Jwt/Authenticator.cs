@@ -10,7 +10,7 @@ using Infrastructure.Data.Persistence.Models.Agents;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using MyCleanArchitecture.Domain.common;
+using MyCleanArchitecture.Domain.Common;
 using MyCleanArchitecture.Domain.DomainModel.entities.User;
 
 namespace Infrastructure.CrossCutting.Auth.Jwt

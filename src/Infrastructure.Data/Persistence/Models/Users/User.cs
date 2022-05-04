@@ -5,14 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using Infrastructure.Data.Persistence.Models;
 using Microsoft.AspNetCore.Identity;
-using MyCleanArchitecture.Domain.common;
+using MyCleanArchitecture.Domain.Common;
 using MyCleanArchitecture.Domain.DomainModel.entities.User;
 
 namespace Infrastructure.Data.Persistence.Models.Agents
 {
-    public class User : IdentityUser<Guid>, IBasePersistenceModel
+    public sealed class User : IdentityUser<Guid>, IBasePersistenceModel
     {
-        private User root;
+        // private User root;
         public Guid Id { get; set; }
         public string Password { get; set; }
         public string LastName { get; set; }
@@ -36,18 +36,9 @@ namespace Infrastructure.Data.Persistence.Models.Agents
             Address = userEntity.Address;
             DOB = userEntity.DOB;
         }
-        public IAggregateRoot ToEntity()
+        public UserEntity ToUser()
         {
             return new UserEntity(Id, UserName, Email, Password, LastName, FirstName, PhoneNumber, Address, DOB);
         }
-        public BasePersistenceModel FromEntity(IAggregateRoot root)
-        {
-            var mapper = new Dictionary<Type, Func<IAggregateRoot, BasePersistenceModel>>
-            {
-                //  {typeof(UserEntity), (r) => { return new User((UserEntity) r); } },
-            };
-            return mapper[root.GetType()](root);
-        }
-
     }
 }

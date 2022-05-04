@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MyCleanArchitecture.Domain.common;
+using MyCleanArchitecture.Domain.Common;
 using MyCleanArchitecture.Domain.DomainModel.Entities.Agents;
 
 namespace Infrastructure.Data.Persistence.Models.Agents
