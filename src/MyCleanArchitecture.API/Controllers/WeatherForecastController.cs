@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace MyCleanArchitecture.Application.Controllers
+namespace MyCleanArchitecture.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.CrossCutting.Authenticator
+namespace MyCleanArchitecture.Application
 {
-    internal class Authenticator
+    internal class Startup
     {
     }
 }

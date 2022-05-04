@@ -15,8 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyCleanArchitecture.DomainShare\MyCleanArchitecture.DomainShare.csproj" />
-    <ProjectReference Include="..\MyCleanArchitecture.Domain\MyCleanArchitecture.Domain.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure.Data\Infrastructure.Data.csproj" />
   </ItemGroup>
 
 </Project>

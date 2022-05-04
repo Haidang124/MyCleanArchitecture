@@ -1,4 +1,4 @@
-﻿namespace MyCleanArchitecture.Application.Configurations
+﻿namespace MyCleanArchitecture.API.Configurations
 {
     internal static class Startup
     {

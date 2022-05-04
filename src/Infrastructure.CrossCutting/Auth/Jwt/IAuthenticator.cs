@@ -6,7 +6,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.CrossCutting.Authenticator
+namespace Infrastructure.CrossCutting.Auth.Jwt
 {
     public interface IAuthenticator
     {

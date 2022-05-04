@@ -1,0 +1,6 @@
+{
+  "DatabaseSettings": {
+    "DBProvider": "mysql",
+    "ConnectionString": "server=localhost;userid=root;password=haidang;database=Ecommerce"
+  }
+}
