@@ -1,3 +1,4 @@
+using Infrastructure.CrossCutting;
 using Infrastructure.Data;
 using Infrastructure.Data.Persistence.Models.Agents;
 using Microsoft.AspNetCore.Identity;
@@ -13,7 +14,7 @@ builder.Services.AddControllers();
 builder.Host.AddConfigurations();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddInfrastructure(builder.Configuration).AddCrossCutting(builder.Configuration);
 builder.Services.AddIdentity<User, IdentityRole<Guid>>(options =>
 {
     options.Password.RequireLowercase = true;
