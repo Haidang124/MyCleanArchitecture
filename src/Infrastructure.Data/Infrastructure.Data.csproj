@@ -12,7 +12,6 @@
     <Folder Include="Persistence\ConnectDatabase\Oracle\" />
     <Folder Include="Persistence\ConnectDatabase\PostgreSQL\" />
     <Folder Include="Persistence\ConnectDatabase\SqlSever\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
