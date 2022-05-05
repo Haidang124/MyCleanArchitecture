@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCleanArchitecture.API", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCleanArchitecture.Application", "src\MyCleanArchitecture.Application\MyCleanArchitecture.Application.csproj", "{811A9719-A261-4E45-BC6E-D7A2101C1960}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validation", "Validation", "{0EF96CBA-FD5B-463E-887A-18FF33D4DA4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +72,7 @@ Global
 		{72CCE440-7F27-460C-B233-F16A63EC649B} = {31C3218A-D8B5-4816-8C2C-2AB08935C130}
 		{6AEAF261-3CA4-4DE4-AFA4-92FFCC0C29D1} = {91B403E4-2962-462D-903B-F532D10A1873}
 		{811A9719-A261-4E45-BC6E-D7A2101C1960} = {A2CF9803-A20D-4863-B37B-A88B9359A61E}
+		{0EF96CBA-FD5B-463E-887A-18FF33D4DA4C} = {A2CF9803-A20D-4863-B37B-A88B9359A61E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3AADF343-9FAB-48A7-B912-21300C5EC8E9}
