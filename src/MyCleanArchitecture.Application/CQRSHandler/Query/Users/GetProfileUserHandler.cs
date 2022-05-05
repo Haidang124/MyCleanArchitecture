@@ -6,10 +6,6 @@ namespace MyCleanArchitecture.Application.CQRSHandler.Query.Users
 {
     public class GetProfileUserHandler : IRequestHandler<GetProfileUserRequest, UserViewModel>
     {
-        public CreateBrandRequestHandler(IUserRepository userRepository)
-        {
-            _userRepository = userRepository;
-        }
         public Task<UserViewModel> Handle(GetProfileUserRequest request, CancellationToken cancellationToken)
         {
             throw new NotImplementedException();

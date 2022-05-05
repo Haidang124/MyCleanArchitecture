@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyCleanArchitecture.Application.Interfaces.ViewModels
+namespace MyCleanArchitecture.Domain.IRepositories
 {
-    public class UserViewModel : IViewModel
+    public interface IUserRepository
     {
+
     }
 }
