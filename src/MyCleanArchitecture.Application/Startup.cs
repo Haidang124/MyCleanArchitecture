@@ -5,6 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace MyCleanArchitecture.Application
@@ -15,8 +16,8 @@ namespace MyCleanArchitecture.Application
         {
             var assembly = Assembly.GetExecutingAssembly();
             return services
-                .AddValidatorsFromAssembly(assembly);
-            // .AddMediatR(assembly);
+                .AddValidatorsFromAssembly(assembly)
+            .AddMediatR(assembly);
         }
     }
 }

@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="DomainModel\Events\" />
-    <Folder Include="IRepositories\" />
     <Folder Include="DomainModel\ValueObjects\" />
   </ItemGroup>
 

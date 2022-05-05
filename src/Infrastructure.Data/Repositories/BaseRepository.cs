@@ -18,7 +18,7 @@ namespace Infrastructure.Data.Repositories
 
 
         /// <summary>
-        ///     Initializes a new instance of the BaseRepository /> class.
+        ///  Initializes a new instance of the BaseRepository /> class.
         ///     Note that here I've stored Context.Set
         ///     <AggregateRoot>
         ///         () in the constructor and store it in a private field like _entities.
@@ -35,7 +35,7 @@ namespace Infrastructure.Data.Repositories
         }
 
         /// <summary>
-        ///     Gets the specified identifier.
+        /// Gets the specified identifier.
         /// </summary>
         /// <param name="id">The identifier.</param>
         /// <returns></returns>
@@ -45,7 +45,7 @@ namespace Infrastructure.Data.Repositories
         }
 
         /// <summary>
-        ///  Gets all specified entities.
+        /// Gets all specified entities.
         /// <returns></returns>
         /// </summary>
         public IEnumerable<T> GetAll()
@@ -55,7 +55,7 @@ namespace Infrastructure.Data.Repositories
 
 
         /// <summary>
-        ///     Adds the specified entity.
+        /// Adds the specified entity.
         /// </summary>
         /// <param name="entity">The entity.</param>
         public void Add(T entity)
@@ -67,7 +67,7 @@ namespace Infrastructure.Data.Repositories
         }
 
         /// <summary>
-        ///     Adds the range.
+        /// Adds the range.
         /// </summary>
         /// <param name="entities">The entities.</param>
         public void AddRange(IEnumerable<T> entities)
@@ -78,7 +78,7 @@ namespace Infrastructure.Data.Repositories
         }
 
         /// <summary>
-        ///     Removes the specified entity.
+        /// Removes the specified entity.
         /// </summary>
         /// <param name="entity">The entity.</param>
         public void Remove(T entity)
@@ -90,7 +90,7 @@ namespace Infrastructure.Data.Repositories
         }
 
         /// <summary>
-        ///     Removes the range.
+        /// Removes the range.
         /// </summary>
         /// <param name="entities">The entities.</param>
         public void RemoveRange(IEnumerable<T> entities)
@@ -102,7 +102,7 @@ namespace Infrastructure.Data.Repositories
 
 
         /// <summary>
-        ///     Update the Entity
+        /// Update the Entity
         /// </summary>
         /// <param name="entity"></param>
         public virtual void UpdateEntity(T entity)
