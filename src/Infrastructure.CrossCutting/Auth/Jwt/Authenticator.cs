@@ -36,7 +36,7 @@ namespace Infrastructure.CrossCutting.Auth.Jwt
                 var user = _userManager.FindByNameAsync(username).Result;
                 var match = _userManager.CheckPasswordAsync(user, password).Result;
                 if (!match) throw new UnauthorizedAccessException("Username and password do not match");
-                return user.ToEntity();
+                return user.ToUser();
             }
             catch
             {
