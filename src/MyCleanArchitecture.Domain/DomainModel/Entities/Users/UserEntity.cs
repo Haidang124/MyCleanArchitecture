@@ -30,5 +30,17 @@ namespace MyCleanArchitecture.Domain.DomainModel.entities.User
             this.Address = Address;
             this.DOB = DOB;
         }
+
+        public UserEntity(string userName, string email, string password, string lastName, string firstName, string phoneNumber, string address, DateTime dOB)
+        {
+            UserName = userName;
+            Email = email;
+            Password = password;
+            LastName = lastName;
+            FirstName = firstName;
+            PhoneNumber = phoneNumber;
+            Address = address;
+            DOB = dOB;
+        }
     }
 }

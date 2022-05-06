@@ -1,8 +1,11 @@
+using AutoMapper;
 using Infrastructure.CrossCutting.Auth.Jwt;
 using Infrastructure.CrossCutting.Settings;
 using MediatR;
+using Microsoft.Extensions.Options;
 using MyCleanArchitecture.Application.Interfaces.Requests.Query;
 using MyCleanArchitecture.Application.Interfaces.Responses.Users;
+using MyCleanArchitecture.Application.Interfaces.ViewModels;
 
 namespace MyCleanArchitecture.Application.CQRSHandler.Query.Users
 {
@@ -10,13 +13,14 @@ namespace MyCleanArchitecture.Application.CQRSHandler.Query.Users
     {
         private readonly Authenticator _authenticator;
         private readonly AppSettings _appSettings;
+        private readonly IMapper _mapper;
 
-        public UserLoginHandler(Authenticator authenticator, AppSettings appSettings)
+        public UserLoginHandler(Authenticator authenticator, IOptions<AppSettings> appSettings, IMapper mapper)
         {
             _authenticator = authenticator;
-            _appSettings = appSettings;
+            _appSettings = appSettings.Value;
+            _mapper = mapper;
         }
-
         public async Task<UserLoginResponse> Handle(UserLoginRequest request, CancellationToken cancellationToken)
         {
             var user = _authenticator.Authenticate(
@@ -28,12 +32,11 @@ namespace MyCleanArchitecture.Application.CQRSHandler.Query.Users
                 _appSettings.Jwt.Key,
                 _appSettings.Jwt.Issuer
             );
-            var vm = new UserLoginResponse(token);
-            // {
-            //    token = token
-            // };
-            return await Task.FromResult(vm);
-            // return new UserLoginResponse(token);
+            return await Task.FromResult(new UserLoginResponse
+            {
+                Token = token,
+                User = _mapper.Map<UserViewModel>(user)
+            });
         }
     }
 }

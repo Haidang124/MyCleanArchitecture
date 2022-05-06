@@ -9,8 +9,8 @@ namespace MyCleanArchitecture.Application.Common
 {
     public class ApiResponse<T> where T : IResponse
     {
-        dynamic data;
-        string message;
+        public dynamic data;
+        public string message;
         public ApiResponse(dynamic data, string message)
         {
             this.data = data;
