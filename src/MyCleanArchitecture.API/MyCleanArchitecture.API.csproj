@@ -24,8 +24,6 @@
     <ProjectReference Include="..\Infrastructure.CrossCutting\Infrastructure.CrossCutting.csproj" />
     <ProjectReference Include="..\Infrastructure.Data\Infrastructure.Data.csproj" />
     <ProjectReference Include="..\MyCleanArchitecture.Application\MyCleanArchitecture.Application.csproj" />
-    <ProjectReference Include="..\MyCleanArchitecture.DomainShare\MyCleanArchitecture.DomainShare.csproj" />
-    <ProjectReference Include="..\MyCleanArchitecture.Domain\MyCleanArchitecture.Domain.csproj" />
   </ItemGroup>
 
 </Project>

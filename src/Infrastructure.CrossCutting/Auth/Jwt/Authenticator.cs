@@ -15,7 +15,7 @@ using MyCleanArchitecture.Domain.DomainModel.entities.User;
 
 namespace Infrastructure.CrossCutting.Auth.Jwt
 {
-    internal class Authenticator : IAuthenticator
+    public class Authenticator : IAuthenticator
     {
         private readonly UserManager<User> _userManager;
         private readonly AppSettings _appSettings;
@@ -29,7 +29,7 @@ namespace Infrastructure.CrossCutting.Auth.Jwt
         }
 
 
-        public IAggregateRoot Authenticate(string username, string password)
+        public UserEntity Authenticate(string username, string password)
         {
             try
             {

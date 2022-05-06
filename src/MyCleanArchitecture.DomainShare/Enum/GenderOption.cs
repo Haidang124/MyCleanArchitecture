@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyCleanArchitecture.Application.Interfaces.Responses.Users
+namespace MyCleanArchitecture.DomainShare.Enum
 {
-    internal class UserResponses
+    public enum GenderOption
     {
+        Male,
+        FeMale,
+        Other
     }
 }
