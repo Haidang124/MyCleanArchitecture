@@ -34,7 +34,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyCleanArchitecture.Application\MyCleanArchitecture.Application.csproj" />
     <ProjectReference Include="..\MyCleanArchitecture.Domain\MyCleanArchitecture.Domain.csproj" />
   </ItemGroup>
 

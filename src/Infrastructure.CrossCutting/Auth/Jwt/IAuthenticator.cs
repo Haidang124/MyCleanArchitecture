@@ -11,7 +11,7 @@ namespace Infrastructure.CrossCutting.Auth.Jwt
 {
     public interface IAuthenticator
     {
-        IAggregateRoot Authenticate(string username, string password);
+        UserEntity Authenticate(string username, string password);
         void ValidatePassword(string password);
         string GenerateUserToken(UserEntity user, string purpose);
         bool VerifyUserToken(UserEntity user, string purpose, string token);
