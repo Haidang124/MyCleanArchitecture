@@ -13,17 +13,18 @@ using MyCleanArchitecture.Application.Interfaces.Requests.Command.Users;
 using MyCleanArchitecture.Application.Interfaces.Responses.Users;
 using MyCleanArchitecture.Application.Interfaces.ViewModels;
 using MyCleanArchitecture.Domain.DomainModel.entities.User;
+using MyCleanArchitecture.Domain.IRepositories;
 
 namespace MyCleanArchitecture.Application.CQRSHandler.Command.Users
 {
     public class CreateUserHandler : IRequestHandler<CreateUserRequest, UserLoginResponse>
     {
-        private readonly UserRepository _userRepository;
+        private readonly IUserRepository _userRepository;
         private readonly Authenticator _authenticator;
         private readonly AppSettings _appSettings;
         private readonly IMapper _mapper;
 
-        public CreateUserHandler(UserRepository userRepository, Authenticator authenticator, IOptions<AppSettings> appSettings, IMapper mapper)
+        public CreateUserHandler(IUserRepository userRepository, Authenticator authenticator, IOptions<AppSettings> appSettings, IMapper mapper)
         {
             _userRepository = userRepository;
             _authenticator = authenticator;

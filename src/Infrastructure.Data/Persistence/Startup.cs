@@ -5,9 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Infrastructure.Data.Common;
 using Infrastructure.Data.Persistence.ConnectDatabase;
+using Infrastructure.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MyCleanArchitecture.Domain.IRepositories;
 using MyCleanArchitecture.Infrastructure.Persistence.ConnectDatabase.Context;
 
 namespace Infrastructure.Data.Persistence
@@ -31,15 +33,14 @@ namespace Infrastructure.Data.Persistence
                 throw new InvalidOperationException("DB Provider is not configured.");
             }
             return services
-            .Configure<DatabaseSettings>(config.GetSection(nameof(DatabaseSettings)))
-            .AddDbContext<EcommerceDbContext>(options =>
-                // return services.AddDbContext<EcommerceDbContext>(options => options.UseSqlServer(coreConnectionString));
-                // options.UseMySql(
-                //     coreConnectionString,
-                //     ServerVersion.AutoDetect(coreConnectionString)
-                // )
-                options.UseDatabase(dbProvider, coreConnectionString)
-            );
+                    .Configure<DatabaseSettings>(config.GetSection(nameof(DatabaseSettings)))
+                    .AddDbContext<EcommerceDbContext>(options => options.UseDatabase(dbProvider, coreConnectionString))
+                    .AddRepository();
+        }
+        internal static IServiceCollection AddRepository(this IServiceCollection services)
+        {
+            services.AddScoped<IUserRepository, UserRepository>();
+            return services;
         }
         internal static DbContextOptionsBuilder UseDatabase(this DbContextOptionsBuilder builder, string dbProvider, string coreConnectionString)
         {

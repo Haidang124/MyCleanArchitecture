@@ -3,6 +3,7 @@ using Infrastructure.Data;
 using Infrastructure.Data.Persistence.Models.Agents;
 using Microsoft.AspNetCore.Identity;
 using MyCleanArchitecture.API.Configurations;
+using MyCleanArchitecture.Application;
 using MyCleanArchitecture.Infrastructure.Persistence.ConnectDatabase.Context;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,7 @@ builder.Host.AddConfigurations();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructure(builder.Configuration).AddCrossCutting(builder.Configuration);
+builder.Services.AddApplication();
 builder.Services.AddIdentity<User, IdentityRole<Guid>>(options =>
 {
     options.Password.RequireLowercase = true;
