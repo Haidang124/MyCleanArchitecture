@@ -31,7 +31,7 @@ namespace MyCleanArchitecture.Application.CQRSHandler.Command.Users
             _appSettings = appSettings.Value;
             _mapper = mapper;
         }
-        public Task<UserLoginResponse> Handle(CreateUserRequest request, CancellationToken cancellationToken)
+        public async Task<UserLoginResponse> Handle(CreateUserRequest request, CancellationToken cancellationToken)
         {
             var user = _userRepository.GetUserByUsername(request.UserName);
             if (user != null) throw new ArgumentException($"User name {request.UserName} is already taken");
@@ -41,15 +41,15 @@ namespace MyCleanArchitecture.Application.CQRSHandler.Command.Users
                 user,
                 request.Password
             );
-            return Task.FromResult(new UserLoginResponse
+            return new UserLoginResponse
             {
                 Token = _authenticator.GenerateJsonWebToken(
                     user,
                    _appSettings.Jwt.Key,
                 _appSettings.Jwt.Issuer
                 ),
-                // User = _mapper.Map<UserViewModel>(user)
-            });
+                User = _mapper.Map<UserViewModel>(user)
+            };
         }
     }
 

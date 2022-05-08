@@ -34,12 +34,13 @@ namespace MyCleanArchitecture.Application.CQRSHandler.Query.Users
             );
             return new UserLoginResponse
             {
-                Token = token
+                Token = token,
+                User = _mapper.Map<UserViewModel>(user)
             };
             // return await Task.FromResult(new UserLoginResponse
             // {
             //     Token = token,
-            //     // User = _mapper.Map<UserViewModel>(user)
+            //     User = _mapper.Map<UserViewModel>(user)
             // });
         }
     }
