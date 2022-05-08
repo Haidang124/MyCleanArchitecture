@@ -2,10 +2,13 @@
 using Microsoft.AspNetCore.Mvc;
 using MyCleanArchitecture.Application.Common;
 using MyCleanArchitecture.Application.Interfaces.Requests.Command.Users;
+using MyCleanArchitecture.Application.Interfaces.Requests.Query;
 using MyCleanArchitecture.Application.Interfaces.Responses.Users;
 
 namespace MyCleanArchitecture.API.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class UserController : Controller
     {
         private readonly IMediator _mediator;
@@ -13,6 +16,14 @@ namespace MyCleanArchitecture.API.Controllers
         {
             _mediator = mediator;
         }
+        //private ISender _mediator = null!;
+
+        //public UserController(ISender mediator)
+        //{
+        //    _mediator = mediator;
+        //}
+
+        //protected ISender Mediator => _mediator ??= HttpContext.RequestServices.GetRequiredService<ISender>();
 
         /// <summary>
         /// Login with user name and password
@@ -20,16 +31,12 @@ namespace MyCleanArchitecture.API.Controllers
         /// <param name="loginRequest"></param>
         /// <returns></returns>
         [HttpPost("login")]
-        public ApiResponse<UserLoginResponse> Login()
+        public async Task<UserLoginResponse> Login([FromBody] UserLoginRequest request)
         {
-            var token = "";
-            return new ApiResponse<UserLoginResponse>(
-                data: new
-                {
-                    Token = token
-                },
-                message: "Login success"
-            );
+            //return Mediator.Send(request);
+            var result = await _mediator.Send(request);
+            //return Json(result);
+            return result;
         }
 
         /// <summary>

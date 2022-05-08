@@ -48,7 +48,7 @@ namespace MyCleanArchitecture.Application.CQRSHandler.Command.Users
                    _appSettings.Jwt.Key,
                 _appSettings.Jwt.Issuer
                 ),
-                User = _mapper.Map<UserViewModel>(user)
+                // User = _mapper.Map<UserViewModel>(user)
             });
         }
     }
