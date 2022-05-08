@@ -32,11 +32,15 @@ namespace MyCleanArchitecture.Application.CQRSHandler.Query.Users
                 _appSettings.Jwt.Key,
                 _appSettings.Jwt.Issuer
             );
-            return await Task.FromResult(new UserLoginResponse
+            return new UserLoginResponse
             {
-                Token = token,
-                User = _mapper.Map<UserViewModel>(user)
-            });
+                Token = token
+            };
+            // return await Task.FromResult(new UserLoginResponse
+            // {
+            //     Token = token,
+            //     // User = _mapper.Map<UserViewModel>(user)
+            // });
         }
     }
 }

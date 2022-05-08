@@ -9,6 +9,6 @@ namespace MyCleanArchitecture.Application.Interfaces.Responses.Users
     public class UserLoginResponse : IResponse
     {
         public string Token;
-        public UserViewModel User;
+        // public UserViewModel User;
     }
 }
