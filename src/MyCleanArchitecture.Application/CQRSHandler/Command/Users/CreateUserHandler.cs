@@ -48,6 +48,7 @@ namespace MyCleanArchitecture.Application.CQRSHandler.Command.Users
                    _appSettings.Jwt.Key,
                 _appSettings.Jwt.Issuer
                 ),
+                // User = (UserViewModel)ViewModel.ToView(user, _mapper)
                 User = _mapper.Map<UserViewModel>(user)
             };
         }

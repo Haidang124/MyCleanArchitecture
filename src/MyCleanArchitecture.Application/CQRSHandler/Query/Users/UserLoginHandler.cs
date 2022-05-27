@@ -4,6 +4,7 @@ using Infrastructure.CrossCutting.Settings;
 using MediatR;
 using Microsoft.Extensions.Options;
 using MyCleanArchitecture.Application.Interfaces.Requests.Query;
+using MyCleanArchitecture.Application.Interfaces.Requests.Query.Users;
 using MyCleanArchitecture.Application.Interfaces.Responses.Users;
 using MyCleanArchitecture.Application.Interfaces.ViewModels;
 

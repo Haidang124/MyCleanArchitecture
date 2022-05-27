@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using MyCleanArchitecture.Application.Common;
 using MyCleanArchitecture.Application.Interfaces.Requests.Command.Users;
 using MyCleanArchitecture.Application.Interfaces.Requests.Query;
+using MyCleanArchitecture.Application.Interfaces.Requests.Query.Users;
 using MyCleanArchitecture.Application.Interfaces.Responses.Users;
 
 namespace MyCleanArchitecture.API.Controllers
