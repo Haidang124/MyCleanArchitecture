@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Infrastructure.Data.Persistence.Models;
+using Infrastructure.Data.Persistence.Models.Users;
 using MyCleanArchitecture.Domain.Common;
 using MyCleanArchitecture.Domain.DomainModel.Entities.Payments;
 
-namespace Infrastructure.Data.Persistence.Models.Agents
+namespace Infrastructure.Data.Persistence.Models.Payments
 {
     public class Payment : BasePersistenceModel
     {
@@ -15,6 +16,7 @@ namespace Infrastructure.Data.Persistence.Models.Agents
         public Guid UserId { get; set; }
         public DateTime Date { get; set; }
         public decimal Amount { get; set; }
+        public virtual User User { get; set; }
         public Payment() { }
         public Payment(PaymentEntity paymentEntity)
         {

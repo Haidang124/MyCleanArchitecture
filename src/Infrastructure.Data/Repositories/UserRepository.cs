@@ -1,5 +1,6 @@
 using Infrastructure.Data.Persistence.Models;
 using Infrastructure.Data.Persistence.Models.Agents;
+using Infrastructure.Data.Persistence.Models.Users;
 using Microsoft.AspNetCore.Identity;
 using MyCleanArchitecture.Domain.DomainModel.entities.User;
 using MyCleanArchitecture.Domain.IRepositories;

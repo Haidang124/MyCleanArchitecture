@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Infrastructure.Data.Persistence.Models;
+using Infrastructure.Data.Persistence.Models.Agents;
+using Infrastructure.Data.Persistence.Models.Orders;
 using MyCleanArchitecture.Domain.Common;
 using MyCleanArchitecture.Domain.DomainModel.Entities.Products;
 
-namespace Infrastructure.Data.Persistence.Models.Agents
+namespace Infrastructure.Data.Persistence.Models.Products
 {
     public class Product : BasePersistenceModel
     {
@@ -19,6 +21,10 @@ namespace Infrastructure.Data.Persistence.Models.Agents
         public int QuantityInStock { get; set; }
         public Guid AgentId { get; set; }
         public Guid ProductLineId { get; set; }
+        public virtual List<ProductLine> ProductLines { get; set; }
+        public virtual List<OrderDetail> OrderDetails { get; set; }
+        public virtual List<AgentProduct> AgentProducts { get; set; }
+         public virtual List<WishList> WishLists { get; set; }
         public Product() { }
         public Product(ProductEntity productEntity)
         {

@@ -34,9 +34,7 @@ namespace MyCleanArchitecture.API.Controllers
         public async Task<UserLoginResponse> Login([FromBody] UserLoginRequest request)
         {
             //return Mediator.Send(request);
-            var result = await _mediator.Send(request);
-            //return Json(result);
-            return result;
+            return await _mediator.Send(request);
         }
 
         /// <summary>
@@ -45,9 +43,9 @@ namespace MyCleanArchitecture.API.Controllers
         /// <param name="CreateUserRequest"></param>
         /// <returns></returns>
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] CreateUserRequest request)
+        public async Task<UserLoginResponse> Register([FromBody] CreateUserRequest request)
         {
-            return Ok(await _mediator.Send(request));
+            return await _mediator.Send(request);
         }
     }
 }
