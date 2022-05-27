@@ -1,6 +1,6 @@
 using Infrastructure.CrossCutting;
 using Infrastructure.Data;
-using Infrastructure.Data.Persistence.Models.Agents;
+using Infrastructure.Data.Persistence.Models.Users;
 using Microsoft.AspNetCore.Identity;
 using MyCleanArchitecture.API.Configurations;
 using MyCleanArchitecture.Application;

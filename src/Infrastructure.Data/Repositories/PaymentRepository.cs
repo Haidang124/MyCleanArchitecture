@@ -1,4 +1,5 @@
 using Infrastructure.Data.Persistence.Models.Agents;
+using Infrastructure.Data.Persistence.Models.Payments;
 using MyCleanArchitecture.Domain.DomainModel.Entities.Payments;
 using MyCleanArchitecture.Domain.IRepositories;
 using MyCleanArchitecture.Infrastructure.Persistence.ConnectDatabase.Context;

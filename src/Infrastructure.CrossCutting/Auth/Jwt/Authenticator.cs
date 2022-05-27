@@ -7,6 +7,7 @@ using System.Security.Claims;
 using System.Text;
 using Infrastructure.CrossCutting.Settings;
 using Infrastructure.Data.Persistence.Models.Agents;
+using Infrastructure.Data.Persistence.Models.Users;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
