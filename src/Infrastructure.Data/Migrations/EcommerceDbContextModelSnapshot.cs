@@ -39,6 +39,10 @@ namespace Infrastructure.Data.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<Guid?>("ModifiedBy")
                         .HasColumnType("char(36)");
 
@@ -46,6 +50,10 @@ namespace Infrastructure.Data.Migrations
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Phone")
                         .IsRequired()
                         .HasColumnType("longtext");
 
@@ -720,6 +728,34 @@ namespace Infrastructure.Data.Migrations
                     b.ToTable("UserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("MyCleanArchitecture.DomainShare.Objects.Image", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<Guid?>("ProductId")
+                        .HasColumnType("char(36)");
+
+                    b.Property<string>("Url")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Image");
+                });
+
             modelBuilder.Entity("Infrastructure.Data.Persistence.Models.Agents.AgentProduct", b =>
                 {
                     b.HasOne("Infrastructure.Data.Persistence.Models.Agents.Agent", "Agent")
@@ -921,6 +957,13 @@ namespace Infrastructure.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("MyCleanArchitecture.DomainShare.Objects.Image", b =>
+                {
+                    b.HasOne("Infrastructure.Data.Persistence.Models.Products.Product", null)
+                        .WithMany("Images")
+                        .HasForeignKey("ProductId");
+                });
+
             modelBuilder.Entity("Infrastructure.Data.Persistence.Models.Agents.Agent", b =>
                 {
                     b.Navigation("AgentProducts");
@@ -946,6 +989,8 @@ namespace Infrastructure.Data.Migrations
             modelBuilder.Entity("Infrastructure.Data.Persistence.Models.Products.Product", b =>
                 {
                     b.Navigation("AgentProducts");
+
+                    b.Navigation("Images");
 
                     b.Navigation("OrderDetails");
 

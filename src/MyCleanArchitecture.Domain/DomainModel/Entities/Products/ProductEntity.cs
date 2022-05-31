@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MyCleanArchitecture.Domain.Common;
+﻿using MyCleanArchitecture.Domain.Common;
+using MyCleanArchitecture.DomainShare.Objects;
 
 namespace MyCleanArchitecture.Domain.DomainModel.Entities.Products
 {
@@ -15,6 +11,7 @@ namespace MyCleanArchitecture.Domain.DomainModel.Entities.Products
         public decimal BuyPrice { get; set; }
         public decimal SellPrice { get; set; }
         public int QuantityInStock { get; set; }
+        public List<Image> Images { get; set; }
         public Guid AgentId { get; set; }
         public Guid ProductLineId { get; set; }
     }

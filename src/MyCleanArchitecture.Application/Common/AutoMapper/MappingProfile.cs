@@ -49,12 +49,12 @@ namespace MyCleanArchitecture.Application.Common.AutoMapper
             #endregion
             #region DomainToViewModel
             CreateMap<UserEntity, UserViewModel>();
-            // CreateMap<ProductEntity, ProductViewModel>();
+            CreateMap<ProductEntity, ProductViewModel>();
             // CreateMap<ProductLineEntity, ProductLineViewModel>();
             // CreateMap<OrderEntity, OrderViewModel>();
             // CreateMap<OrderDetailEntity, OrderDetailViewModel>();
             // CreateMap<PaymentEntity, PaymentViewModel>();
-            // CreateMap<AgentEntity, AgentViewModel>();
+            CreateMap<AgentEntity, AgentViewModel>();
             #endregion
         }
     }

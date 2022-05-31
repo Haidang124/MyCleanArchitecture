@@ -40,6 +40,7 @@ namespace Infrastructure.Data.Persistence
         internal static IServiceCollection AddRepository(this IServiceCollection services)
         {
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IAgentRepository, AgentRepository>();
             return services;
         }
         internal static DbContextOptionsBuilder UseDatabase(this DbContextOptionsBuilder builder, string dbProvider, string coreConnectionString)

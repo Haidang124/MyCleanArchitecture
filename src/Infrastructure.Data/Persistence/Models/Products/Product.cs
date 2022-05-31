@@ -8,6 +8,7 @@ using Infrastructure.Data.Persistence.Models.Agents;
 using Infrastructure.Data.Persistence.Models.Orders;
 using MyCleanArchitecture.Domain.Common;
 using MyCleanArchitecture.Domain.DomainModel.Entities.Products;
+using MyCleanArchitecture.DomainShare.Objects;
 
 namespace Infrastructure.Data.Persistence.Models.Products
 {
@@ -21,10 +22,11 @@ namespace Infrastructure.Data.Persistence.Models.Products
         public int QuantityInStock { get; set; }
         public Guid AgentId { get; set; }
         public Guid ProductLineId { get; set; }
+        public List<Image> Images { get; set; }
         public virtual List<ProductLine> ProductLines { get; set; }
         public virtual List<OrderDetail> OrderDetails { get; set; }
         public virtual List<AgentProduct> AgentProducts { get; set; }
-         public virtual List<WishList> WishLists { get; set; }
+        public virtual List<WishList> WishLists { get; set; }
         public Product() { }
         public Product(ProductEntity productEntity)
         {
