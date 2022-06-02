@@ -41,6 +41,8 @@ namespace Infrastructure.Data.Persistence
         {
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IAgentRepository, AgentRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IProductLineRepository, ProductLineRepository>();
             return services;
         }
         internal static DbContextOptionsBuilder UseDatabase(this DbContextOptionsBuilder builder, string dbProvider, string coreConnectionString)
