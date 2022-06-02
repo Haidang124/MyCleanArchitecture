@@ -8,8 +8,10 @@ namespace Infrastructure.Data.Repositories
 {
     public class ProductRepository : BaseRepository<ProductEntity, Product>, IProductRepository
     {
-        protected ProductRepository(EcommerceDbContext context) : base(context)
+        public readonly EcommerceDbContext _context;
+        public ProductRepository(EcommerceDbContext context) : base(context)
         {
+            _context = context;
         }
     }
 }

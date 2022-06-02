@@ -10,11 +10,11 @@ namespace Infrastructure.Data.Repositories
 {
     public class ProductLineRepository : BaseRepository<ProductLineEntity, ProductLine>, IProductLineRepository
     {
-        protected ProductLineRepository(EcommerceDbContext context) : base(context)
+        public readonly EcommerceDbContext _context;
+        public ProductLineRepository(EcommerceDbContext context) : base(context)
         {
-            
+            _context = context;
         }
-
         public PagedAndSortedResult<ProductEntity> GetAllProduct(ProductFilter filter, Pagination pagination)
         {
             throw new NotImplementedException();

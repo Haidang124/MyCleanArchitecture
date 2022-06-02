@@ -397,9 +397,6 @@ namespace Infrastructure.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
-                    b.Property<Guid>("AgentId")
-                        .HasColumnType("char(36)");
-
                     b.Property<decimal>("BuyPrice")
                         .HasColumnType("decimal(65,30)");
 
@@ -434,6 +431,8 @@ namespace Infrastructure.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ProductLineId");
+
                     b.ToTable("Products");
                 });
 
@@ -463,12 +462,7 @@ namespace Infrastructure.Data.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<Guid>("ProductId")
-                        .HasColumnType("char(36)");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
 
                     b.ToTable("ProductLines");
                 });
@@ -876,15 +870,15 @@ namespace Infrastructure.Data.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Infrastructure.Data.Persistence.Models.Products.ProductLine", b =>
+            modelBuilder.Entity("Infrastructure.Data.Persistence.Models.Products.Product", b =>
                 {
-                    b.HasOne("Infrastructure.Data.Persistence.Models.Products.Product", "Product")
-                        .WithMany("ProductLines")
-                        .HasForeignKey("ProductId")
+                    b.HasOne("Infrastructure.Data.Persistence.Models.Products.ProductLine", "ProductLine")
+                        .WithMany("Products")
+                        .HasForeignKey("ProductLineId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Product");
+                    b.Navigation("ProductLine");
                 });
 
             modelBuilder.Entity("Infrastructure.Data.Persistence.Models.Products.WishList", b =>
@@ -994,9 +988,12 @@ namespace Infrastructure.Data.Migrations
 
                     b.Navigation("OrderDetails");
 
-                    b.Navigation("ProductLines");
-
                     b.Navigation("WishLists");
+                });
+
+            modelBuilder.Entity("Infrastructure.Data.Persistence.Models.Products.ProductLine", b =>
+                {
+                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("Infrastructure.Data.Persistence.Models.Users.User", b =>

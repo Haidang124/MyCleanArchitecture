@@ -20,10 +20,8 @@ namespace Infrastructure.Data.Persistence.Models.Products
         public decimal BuyPrice { get; set; }
         public decimal SellPrice { get; set; }
         public int QuantityInStock { get; set; }
-        public Guid AgentId { get; set; }
-        public Guid ProductLineId { get; set; }
         public List<Image> Images { get; set; }
-        public virtual List<ProductLine> ProductLines { get; set; }
+        public virtual ProductLine ProductLine { get; set; }
         public virtual List<OrderDetail> OrderDetails { get; set; }
         public virtual List<AgentProduct> AgentProducts { get; set; }
         public virtual List<WishList> WishLists { get; set; }
@@ -36,8 +34,6 @@ namespace Infrastructure.Data.Persistence.Models.Products
             BuyPrice = productEntity.BuyPrice;
             SellPrice = productEntity.SellPrice;
             QuantityInStock = productEntity.QuantityInStock;
-            AgentId = productEntity.AgentId;
-            ProductLineId = productEntity.ProductLineId;
         }
         public override IAggregateRoot ToEntity()
         {
@@ -49,8 +45,6 @@ namespace Infrastructure.Data.Persistence.Models.Products
                 BuyPrice = this.BuyPrice,
                 SellPrice = this.SellPrice,
                 QuantityInStock = this.QuantityInStock,
-                AgentId = this.AgentId,
-                ProductLineId = this.ProductLineId
             };
         }
     }
