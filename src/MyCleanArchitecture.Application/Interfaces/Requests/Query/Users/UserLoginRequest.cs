@@ -1,7 +1,7 @@
 using MediatR;
 using MyCleanArchitecture.Application.Interfaces.Responses.Users;
 
-namespace MyCleanArchitecture.Application.Interfaces.Requests.Query
+namespace MyCleanArchitecture.Application.Interfaces.Requests.Query.Users
 {
     public class UserLoginRequest : IRequest<UserLoginResponse>
     {

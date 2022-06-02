@@ -7,8 +7,10 @@ namespace Infrastructure.Data.Repositories
 {
     public class AgentRepository : BaseRepository<AgentEntity, Agent>, IAgentRepository
     {
-        protected AgentRepository(EcommerceDbContext context) : base(context)
+        public readonly EcommerceDbContext _dbContext;
+        public AgentRepository(EcommerceDbContext context) : base(context)
         {
+            _dbContext = context;
         }
     }
 }

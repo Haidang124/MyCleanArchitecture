@@ -1,5 +1,6 @@
 using MediatR;
 using MyCleanArchitecture.Application.Interfaces.Requests.Query;
+using MyCleanArchitecture.Application.Interfaces.Requests.Query.Users;
 using MyCleanArchitecture.Application.Interfaces.ViewModels;
 
 namespace MyCleanArchitecture.Application.CQRSHandler.Query.Users

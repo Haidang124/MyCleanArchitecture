@@ -1,9 +1,13 @@
-﻿using MyCleanArchitecture.Domain.Common;
-using MyCleanArchitecture.DomainShare.Objects;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using AutoMapper;
 
-namespace MyCleanArchitecture.Domain.DomainModel.Entities.Products
+namespace MyCleanArchitecture.Application.Interfaces.ViewModels
 {
-    public class ProductEntity : IAggregateRoot
+    public class ProductViewModel : IViewModel
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
@@ -11,7 +15,6 @@ namespace MyCleanArchitecture.Domain.DomainModel.Entities.Products
         public decimal BuyPrice { get; set; }
         public decimal SellPrice { get; set; }
         public int QuantityInStock { get; set; }
-        public List<Image> Images { get; set; }
         public Guid AgentId { get; set; }
         public Guid ProductLineId { get; set; }
     }
