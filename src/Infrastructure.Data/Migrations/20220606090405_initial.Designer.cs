@@ -11,8 +11,8 @@ using MyCleanArchitecture.Infrastructure.Persistence.ConnectDatabase.Context;
 namespace Infrastructure.Data.Migrations
 {
     [DbContext(typeof(EcommerceDbContext))]
-    [Migration("20220602104629_init1")]
-    partial class init1
+    [Migration("20220606090405_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
